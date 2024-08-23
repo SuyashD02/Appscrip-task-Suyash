@@ -1,0 +1,332 @@
+.footerMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin-top: 50px;
+    padding: 0 96px;
+  }
+  
+  .width-100 {
+    width: 100%;
+  }
+  
+  .mt20 li{
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  
+  .mainP {
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .smallText {
+    font-size: 12px;
+  }
+  
+  .footerHeading {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .mettaMuse {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .letterAndcontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding-bottom: 30px;
+  }
+  
+  .inputsBtn {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .inputsBtn input {
+    width: 384px;
+    height: 47px;
+    padding: 14px 24px;
+  }
+  
+  .inputsBtn button {
+    width: 184px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .inputsBtn button:hover {
+    color: white;
+    border-color: white;
+  }
+  
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+  }
+  
+  .currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+  }
+  
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+
+  }
+  
+  .contactUsdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+  .contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  
+  .actionsLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    gap: 90px;
+  }
+  .contactSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .socialLinksContainer {
+    margin-bottom: 50px;
+  }
+  
+  .socialAcc,
+  .payments {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .lgsrc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mdsrc {
+    display: none;
+  }
+  
+  .copyright p {
+    font-family: Simplon Norm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mt20 {
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+  }
+  
+  .footerMain ul {
+    padding: 0;
+    margin: 0;
+  }
+  .footHead{
+    font-family: Simplon Norm;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+  .followUs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  .footerMain li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  .paymentMethodsContainer{
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 888px) {
+    .footerMain {
+      padding: 0 32px;
+    }
+  
+    .inputsBtn input {
+      width: 250px;
+    }
+  
+    .inputsBtn button {
+      width: 120px;
+    }
+  
+    .footerHeading {
+      font-size: 18px;
+    }
+  
+    .mt20> li {
+      font-size: 14px;
+    }
+  
+    .payments {
+      flex-wrap: wrap;
+      width: 60%;
+      gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    .footerMain {
+      padding: 0 16px;
+    }
+  
+    .lgsrc {
+      display: none;
+    }
+  
+    .mdsrc {
+      display: block;
+    }
+  
+    .footerHeadingCont {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .letterAndcontact {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    /* .quickLinks,
+    .followUs,
+    .contactDetails {
+      margin-top: 50px;
+    } */
+     .contactDetails{
+        margin-top: 20px;
+     }
+    .newsletter{
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+     }
+    
+    .contactUs,
+    .mettaMuse,
+    .quickLinks,
+    .socialLinksContainer {
+      padding-bottom: 30px;
+      border-bottom: 1px solid white;
+    }
+    .followUs{
+        padding-bottom: 30px;
+      border-bottom: 1px solid white;
+    }
+  
+    .actionsLinksContainer {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .inputsBtn input {
+      width: 384px;
+    }
+  
+    .inputsBtn button {
+      width: 184px;
+    }
+  
+    .payments {
+      padding-top: 20px;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .socialAcc img {
+      margin-right: 10px;
+    }
+  }
+  
+  /* Small mobile responsive */
+  @media screen and (max-width: 530px) {
+    .inputsBtn input {
+      width: auto;
+      min-width: 100px;
+    }
+  
+    .inputsBtn button {
+      width: 180px;
+      font-size: 14px;
+    }
+  
+    .mainP {
+      font-size: 14px;
+    }
+  
+    .diamond {
+      font-size: 14px;
+      color: white;
+    }
+  
+    .contactUsdetails {
+      flex-direction: row;
+      gap: 8px;
+      align-items: center;
+      margin-top: 20px;
+    }
+  }
+  
