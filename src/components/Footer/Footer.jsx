@@ -5,9 +5,9 @@ import Image from "next/image";
 import GpayIcon from "../../../public/Assets/G-pay.png";
 import MasterCardIcon from "../../../public/Assets/MasterCard.png";
 import OpayIcon from "../../../public/Assets/PayPal.png";
-import PayPalIcon from "../../../public/Assets/G pay.png";
+import PayPalIcon from "../../../public/Assets/GPay.png";
 import AmexIcon from "../../../public/Assets/Amex.png";
-import ApplePayIcon from "../../../public/Assets/Apple-pay.png";
+import ApplePayIcon from "../../../public/Assets/Apple.png"
 import LangIcon from "../../../public/Assets/Language.png";
 import Arrow from "../../../public/Assets/arrow-right.png";
 import InstaIcon from "../../../public/Assets/Insta.png";
