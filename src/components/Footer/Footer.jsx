@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
-import GpayIcon from "../../../public/Assets/G-pay.png";
+import GpayIcon from "../../../public/Assets/GPay.png";
 import MasterCardIcon from "../../../public/Assets/MasterCard.png";
 import OpayIcon from "../../../public/Assets/PayPal.png";
-import PayPalIcon from "../../../public/Assets/GPay.png";
+import PayPalIcon from "../../../public/Assets/PayPal.png";
 import AmexIcon from "../../../public/Assets/Amex.png";
 import ApplePayIcon from "../../../public/Assets/Apple.png"
 import LangIcon from "../../../public/Assets/Language.png";
